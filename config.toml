@@ -20,6 +20,9 @@ publishDir = "rewong03.github.io"
     info = "Student @ Whitney Young HS"
     #avatarURL = "images/avatar.jpg"
 
+    favicon_16 = "images/favicon-16x16.png"
+    favicon_32 = "images/favicon-32x32.png"
+
     dateFormat = "January 2, 2006"
 
     hideFooter = false
@@ -54,12 +57,14 @@ publishDir = "rewong03.github.io"
     # Custom JS
     customJS = []
 
+
 [taxonomies]
   category = "categories"
   series = "series"
   tag = "tags"
   author = "authors"
 
+# Social media links
 [[params.social]]
     name = "Github"
     icon = "fa fa-github"
@@ -70,3 +75,14 @@ publishDir = "rewong03.github.io"
     icon = "fa fa-linkedin"
     weight = 2
     url = "https://www.linkedin.com/in/rewong03/"
+
+# Page links
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url = "https://rewong03.github.io"
+
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "about/"
