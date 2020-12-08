@@ -12,6 +12,8 @@ pygmentsStyle = "b2"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 
+publishDir = "rewong03.github.io"
+
 [params]
     author = "Ryan Wong"
     description = "Ryan Wong's personal website"
