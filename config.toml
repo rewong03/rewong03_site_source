@@ -80,7 +80,7 @@ publishDir = "rewong03.github.io"
 [[menu.main]]
     name = "Home"
     weight = 1
-    url = "https://rewong03.github.io"
+    url = "/"
 
 [[menu.main]]
     name = "About"
