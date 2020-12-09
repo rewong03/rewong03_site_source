@@ -20,9 +20,6 @@ publishDir = "rewong03.github.io"
     info = "Student @ Whitney Young HS"
     #avatarURL = "images/avatar.jpg"
 
-    favicon_16 = "images/favicon-16x16.png"
-    favicon_32 = "images/favicon-32x32.png"
-
     dateFormat = "January 2, 2006"
 
     hideFooter = false
@@ -31,6 +28,9 @@ publishDir = "rewong03.github.io"
     since = 2020
 
     rtl = false
+    
+    favicon_16 = "/images/favicon-16x16.png"
+    favicon_32 = "/images/favicon-32x32.png"
 
     # Specify light/dark colorscheme
     # Supported values:
@@ -86,3 +86,8 @@ publishDir = "rewong03.github.io"
     name = "About"
     weight = 2
     url = "about/"
+
+[[menu.main]]
+    name = "Projects"
+    weight  = 3
+    url = "projects/"
