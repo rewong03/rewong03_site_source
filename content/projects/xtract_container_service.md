@@ -4,7 +4,9 @@ author: "Ryan Wong"
 date: "2019-12-01"
 slug: "xtract_container_service"
 ---
-
+  
+*Updated on December 11, 2020*    
+  
 The [Xtract Container Service (XCS)](https://github.com/xtracthub/xtract-container-service) is 
 a service I developed as a research assistant at [Globus Labs](https://labs.globus.org) under 
 the mentorship of [Tyler Skluzacek](https://github.com/tskluzac). XCS is a service for building 
