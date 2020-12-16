@@ -54,7 +54,7 @@ and the [materials science file extractor](https://github.com/xtracthub/xtract-m
 on [MaterialsIO](https://github.com/materials-data-facility/MaterialsIO)). For all extractors, 
 I also created Dockerfiles so that they could be built into [Docker containers](https://www.docker.com/resources/what-container), 
 allowing them to be fully utilized in Xtract. Additionally, I made substantial improvements 
-to Xtract's [file sampler](https://github.con/xtracthub/xtract-sampler), which uses machine 
+to Xtract's [file sampler](https://github.com/xtracthub/xtract-sampler), which uses machine 
 learning to determine what metadata can be extracted from each file. I improved the accuracy 
 of the model, automated the training of the model, and did some overall cleanup. I also made 
 a Python Flask web application that served as a mini version of Xtract that extracted metadata 

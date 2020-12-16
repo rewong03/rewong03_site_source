@@ -5,7 +5,7 @@ date: "2020-06-01"
 slug: "d-gen"
 ---
   
-*Updated on December 10, 2020* 
+*Updated on December 16, 2020* 
   
 [d-gen](https://github.com/raulcf/d-gen) is a project that I developed as part of the [2020 CDAC Summer Lab](https://cdac.uchicago.edu/engage/summerlab/#project-profiles) 
 under the mentorship of [Professor Raul Castro-Ferenandez](https://raulcastrofernandez.com). The purpose of d-gen is to synthetically 
@@ -43,5 +43,5 @@ this defined schema to generate the database, which is then finally serialized t
 Although d-gen is (mostly) working and functional, there are still many improvements that can be made. Currently, there are only basic 
 column/table relationships available (PK-FK, Jacaard Similarity, Functional Dependency), but there are many more that could be implemented 
 in both the YAML config and in the generation. Another big change that could be made is increasing the performance of data generation and 
-serialization. I most likely won't pick up d-gen again, but feel free to check it out on GitHub [here](https://github.con/raulcf/d-gen), or 
+serialization. I most likely won't pick up d-gen again, but feel free to check it out on GitHub [here](https://github.com/raulcf/d-gen), or 
 watch [this video](https://www.youtube.com/watch?v=qPmuSZtiiiQ&feature=emb_imp_woyt) I made about it!
