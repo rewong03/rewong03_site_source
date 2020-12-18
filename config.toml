@@ -14,6 +14,8 @@ pygmentsCodeFencesGuessSyntax = true
 
 publishDir = "rewong03.github.io"
 
+enableGitInfo = true
+
 [params]
     author = "Ryan Wong"
     description = "Ryan Wong's personal website"

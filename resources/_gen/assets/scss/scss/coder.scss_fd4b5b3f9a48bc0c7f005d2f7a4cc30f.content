@@ -167,11 +167,21 @@ figure {
   font-weight: 700; }
 
 .float-right {
-  float: right; }
-
+  text-align: center; }
+  .float-right img {
+    width: 25%; }
+  @media only screen and (min-width: 768px) {
+    .float-right img {
+      float: right;
+      margin: 0 0 2rem 2rem; } }
 .float-left {
-  float: left; }
-
+  text-align: center; }
+  .float-left img {
+    width: 25%; }
+  @media only screen and (min-width: 768px) {
+    .float-left img {
+      float: left;
+      margin: 0 0 2rem 2rem; } }
 .fab {
   font-weight: 400; }
 

@@ -4,9 +4,6 @@ author: "Ryan Wong"
 date: "2020-06-01"
 slug: "d-gen"
 ---
-  
-*Updated on December 16, 2020* 
-  
 [d-gen](https://github.com/raulcf/d-gen) is a project that I developed as part of the [2020 CDAC Summer Lab](https://cdac.uchicago.edu/engage/summerlab/#project-profiles) 
 under the mentorship of [Professor Raul Castro-Ferenandez](https://raulcastrofernandez.com). The purpose of d-gen is to synthetically 
 generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.  
@@ -18,7 +15,7 @@ class. Since all students enrolled in a class at a school **must also** be stude
 the student information table and class enrollment table, where information in the class enrollment table **must also** exist in the student 
 information table. This is an example of one way that data can be "related" in a database, but there exists many other ways.  
   
-{{< figure src="/images/projects/d-gen/example_database.jp2" width=800 caption="Example relational database schema" >}}
+{{< figure src="/images/projects/d-gen/example_database.jp2" width=800 caption="Example relational database schema">}}
   
 Relational databases are very commonly used, so there is a need to optimize [queries](https://www.hostinger.com/tutorials/what-is-a-query). 
 To ensure that queries are properly optimized, they should be run on data of various sizes and data containing various distributions. 
