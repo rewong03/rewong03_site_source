@@ -167,7 +167,7 @@ figure {
   font-weight: 700; }
 
 .float-right {
-  text-align: center; }
+  text-align: right; }
   .float-right img {
     width: 25%; }
   @media only screen and (min-width: 768px) {
@@ -175,7 +175,7 @@ figure {
       float: right;
       margin: 0 0 2rem 2rem; } }
 .float-left {
-  text-align: center; }
+  text-align: left; }
   .float-left img {
     width: 25%; }
   @media only screen and (min-width: 768px) {

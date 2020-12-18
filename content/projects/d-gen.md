@@ -41,4 +41,6 @@ Although d-gen is (mostly) working and functional, there are still many improvem
 column/table relationships available (PK-FK, Jacaard Similarity, Functional Dependency), but there are many more that could be implemented 
 in both the YAML config and in the generation. Another big change that could be made is increasing the performance of data generation and 
 serialization. I most likely won't pick up d-gen again, but feel free to check it out on GitHub [here](https://github.com/raulcf/d-gen), or 
-watch [this video](https://www.youtube.com/watch?v=qPmuSZtiiiQ&feature=emb_imp_woyt) I made about it!
+watch this video I made about it!
+  
+{{< youtube id=qPmuSZtiiiQ >}}
