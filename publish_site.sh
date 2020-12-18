@@ -8,6 +8,11 @@ git commit -m "$1"
 git push origin master
 cd ../..
 
+echo Committing changes to rewong_site_source
+
+git add --all
+git commit -m "$1"
+
 hugo
 
 echo Pushing rewong03.github.io with message $1...
@@ -19,7 +24,9 @@ git push origin master
 
 cd ..
 
-echo Pushing rewong03_site_source with message $1...
+echo Publishing rewong.github.io
+
 git add --all
-git commit -m "$1"
-git push origin master
+git commit -m "Publishing site"
+git push orign master
+
