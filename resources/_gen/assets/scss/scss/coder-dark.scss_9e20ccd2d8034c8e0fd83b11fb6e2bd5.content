@@ -10,6 +10,8 @@ body.colorscheme-dark {
   body.colorscheme-dark h5,
   body.colorscheme-dark h6 {
     color: #dadada; }
+  body.colorscheme-dark p {
+    color: #dadada; }
   body.colorscheme-dark code {
     background-color: #424242;
     color: #dadada; }
@@ -34,6 +36,8 @@ body.colorscheme-dark {
     body.colorscheme-auto h5,
     body.colorscheme-auto h6 {
       color: #dadada; }
+    body.colorscheme-auto p {
+      color: #dadada; }
     body.colorscheme-auto code {
       background-color: #424242;
       color: #dadada; }
@@ -44,6 +48,10 @@ body.colorscheme-dark {
       border-left: 2px solid #424242; }
     body.colorscheme-auto table td, body.colorscheme-auto table th {
       border: 2px solid #dadada; } }
+
+.project-card {
+  background-color: #333333;
+  color: #dadada; }
 
 body.colorscheme-dark .content .list ul li .title {
   color: #dadada; }
