@@ -28,5 +28,5 @@ echo Publishing rewong.github.io
 
 git add --all
 git commit -m "Publishing site"
-git push orign master
+git push origin master
 
