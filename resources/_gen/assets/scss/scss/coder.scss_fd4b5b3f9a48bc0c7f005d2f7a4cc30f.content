@@ -201,7 +201,10 @@ img.emoji {
   width: auto;
   padding: 2rem 2rem 2rem 2rem;
   border-radius: 8px;
-  margin: 2rem 2rem 2rem 2rem; }
+  margin: 2rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
   .project-card svg {
     fill: #212121; }
   .project-card h1 {
@@ -220,6 +223,26 @@ img.emoji {
     font-size: 1.5rem;
     line-height: 2rem;
     margin: 1.0rem 0 1.0rem 0; }
+
+.project-info svg {
+  fill: #212121; }
+
+.project-info h1 {
+  font-family: Lato, Helvetica, sans-serif;
+  color: #212121;
+  font-weight: 700;
+  margin: 0 2rem 0 0;
+  font-size: 2rem;
+  line-height: 2.5rem; }
+  @media only screen and (max-width: 768px) {
+    .project-info h1 {
+      font-size: 1.8rem;
+      line-height: 1.8rem; } }
+.project-info p {
+  color: #212121;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 1.0rem 0 1.0rem 0; }
 
 .project-card:hover {
   box-shadow: 16px 16px 5px 0 rgba(0, 0, 0, 0.4); }
