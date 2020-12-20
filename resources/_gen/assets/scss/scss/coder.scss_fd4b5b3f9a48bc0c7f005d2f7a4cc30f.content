@@ -222,7 +222,7 @@ img.emoji {
     margin: 1.0rem 0 1.0rem 0; }
 
 .project-card:hover {
-  box-shadow: 0 4px 16px 10px rgba(0, 0, 0, 0.4); }
+  box-shadow: 16px 16px 5px 0 rgba(0, 0, 0, 0.4); }
 
 .project-grid {
   display: grid;
