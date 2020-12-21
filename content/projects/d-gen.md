@@ -3,6 +3,7 @@ title: "d-gen"
 author: "Ryan Wong"
 date: "2020-06-01"
 slug: "d-gen"
+language: "Java"
 ---
 [d-gen](https://github.com/raulcf/d-gen) is a project that I developed as part of the [2020 CDAC Summer Lab](https://cdac.uchicago.edu/engage/summerlab/#project-profiles) 
 under the mentorship of [Professor Raul Castro-Ferenandez](https://raulcastrofernandez.com). The purpose of d-gen is to synthetically 

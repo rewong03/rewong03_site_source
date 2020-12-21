@@ -3,6 +3,7 @@ title: "XtractHub"
 author: "Ryan Wong"
 date: "2019-06-01"
 slug: "xtracthub"
+language: "Python"
 ---
 [XtractHub](https://github.com/xtracthub) is a project that I contributed to as part of the 
 [2019 CDAC Summer Lab](https://cdac.uchicago.edu/engage/summerlab/#project-profiles) under 

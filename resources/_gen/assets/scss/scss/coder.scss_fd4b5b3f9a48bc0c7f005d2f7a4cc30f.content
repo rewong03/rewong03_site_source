@@ -251,6 +251,16 @@ img.emoji {
   display: grid;
   grid-template-columns: 1fr 1fr; }
 
+.repo-language-color {
+  filter: brightness(125%) !important;
+  border-radius: 50%;
+  display: inline-block;
+  height: 1.5rem;
+  position: relative;
+  width: 1.5rem;
+  top: 0.3rem;
+  margin-right: 0.5rem; }
+
 .content {
   flex: 1;
   display: flex;

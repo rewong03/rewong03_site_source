@@ -3,6 +3,7 @@ title: "Xtract Container Service"
 author: "Ryan Wong"
 date: "2019-12-01"
 slug: "xtract_container_service"
+language: "Python"
 ---
 The [Xtract Container Service (XCS)](https://github.com/xtracthub/xtract-container-service) is 
 a service I developed as a research assistant at [Globus Labs](https://labs.globus.org) under 

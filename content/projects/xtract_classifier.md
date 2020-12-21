@@ -3,6 +3,7 @@ title: "Xtract Classifier"
 author: "Ryan Wong"
 date: "2019-10-01"
 slug: "xtract_classifier"
+language: "Jupyter Notebook"
 ---
 The [Xtract Classifier](https://github.com/rewong03/xtract-classifier) is a 
 machine learning tool that I developed as a research at [Globus Labs](https://labs.globus.org) 
