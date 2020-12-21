@@ -27,6 +27,8 @@ body.colorscheme-dark {
     color: #dadada; }
     body.colorscheme-dark .project-card svg {
       fill: #dadada; }
+  body.colorscheme-dark .project-card:hover {
+    box-shadow: 2.5rem 2.5rem 1rem 0 rgba(0, 0, 0, 0.4); }
 
 @media (prefers-color-scheme: dark) {
   body.colorscheme-auto {
@@ -57,7 +59,9 @@ body.colorscheme-dark {
       background-color: #333333;
       color: #dadada; }
       body.colorscheme-auto .project-card svg {
-        fill: #dadada; } }
+        fill: #dadada; }
+    body.colorscheme-auto .project-card:hover {
+      box-shadow: 2.5rem 2.5rem 1rem 0 rgba(0, 0, 0, 0.4); } }
 
 body.colorscheme-dark .content .list ul li .title {
   color: #dadada; }
