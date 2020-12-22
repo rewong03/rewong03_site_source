@@ -59,8 +59,9 @@ of the model, automated the training of the model, and did some overall cleanup.
 a Python Flask web application that served as a mini version of Xtract that extracted metadata 
 from individual files rather than entire data repositories.
 
-Near the end of my assistantship, I helped co-author "Serverless Workflows for Indexling 
-Large Scientific Data", where Xtract was used to process data from the [Materials Data Facility](https://materialsdatafacility.org) 
+Near the end of my assistantship, I helped co-author ["Serverless Workflows for Indexling 
+Large Scientific Data"](/documents/projects/xtracthub/xtracthub_wosc_19.pdf), where Xtract 
+was used to process data from the [Materials Data Facility](https://materialsdatafacility.org) 
 (MDF). MDF is a public repository of materials science data, hosting millions of various 
 materials science files from numerous users.
   
