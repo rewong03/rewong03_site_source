@@ -206,7 +206,7 @@ img.emoji {
   flex-direction: column;
   justify-content: space-between; }
 
-.project-info p {
+.project-description p {
   color: #212121;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -247,6 +247,13 @@ img.emoji {
   .project-title a:focus, .project-title a:hover {
     text-decoration: underline; }
 
+.project-stats svg {
+  fill: #212121;
+  position: relative;
+  top: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 0.3rem; }
+
 .repo-language-color {
   filter: brightness(125%) !important;
   border-radius: 50%;
@@ -255,7 +262,7 @@ img.emoji {
   position: relative;
   width: 1.5rem;
   top: 0.3rem;
-  margin-right: 0.5rem; }
+  margin-right: 0.3rem; }
 
 .content {
   flex: 1;
