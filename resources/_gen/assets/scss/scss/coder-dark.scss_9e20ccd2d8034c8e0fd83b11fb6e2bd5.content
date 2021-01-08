@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body.colorscheme-dark {
   color: #dadada;
   background-color: #212121; }
@@ -22,20 +23,67 @@ body.colorscheme-dark {
     border-left: 2px solid #424242; }
   body.colorscheme-dark table td, body.colorscheme-dark table th {
     border: 2px solid #dadada; }
-  body.colorscheme-dark .project-card {
+  body.colorscheme-dark .gh-card {
     background-color: #333333;
     color: #dadada; }
-    body.colorscheme-dark .project-card svg {
+    body.colorscheme-dark .gh-card svg {
       fill: #dadada; }
-  body.colorscheme-dark .project-title a {
+  body.colorscheme-dark .gh-title a {
     font-weight: 300;
     color: #dadada;
     text-decoration: none;
     transition: all .25s ease-in; }
-    body.colorscheme-dark .project-title a:focus, body.colorscheme-dark .project-title a:hover {
+    body.colorscheme-dark .gh-title a:focus, body.colorscheme-dark .gh-title a:hover {
       text-decoration: underline; }
-  body.colorscheme-dark .project-card:hover {
+  body.colorscheme-dark .gh-card:hover {
     box-shadow: 2.5rem 2.5rem 1rem 0 rgba(0, 0, 0, 0.4); }
+  body.colorscheme-dark .arrows {
+    width: 120px;
+    height: 73px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    bottom: 20px; }
+  body.colorscheme-dark .arrows path {
+    stroke: #dadada;
+    fill: transparent;
+    stroke-width: 3px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite; }
+
+@keyframes arrow {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+  body.colorscheme-dark .arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+    /* Safari 和 Chrome */ }
+  body.colorscheme-dark .arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+    /* Safari 和 Chrome */ }
+  body.colorscheme-dark .arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    /* Safari 和 Chrome */ }
+  body.colorscheme-dark .project-section-light {
+    background-color: #424242; }
 
 @media (prefers-color-scheme: dark) {
   body.colorscheme-auto {
@@ -62,20 +110,65 @@ body.colorscheme-dark {
       border-left: 2px solid #424242; }
     body.colorscheme-auto table td, body.colorscheme-auto table th {
       border: 2px solid #dadada; }
-    body.colorscheme-auto .project-card {
+    body.colorscheme-auto .gh-card {
       background-color: #333333;
       color: #dadada; }
-      body.colorscheme-auto .project-card svg {
+      body.colorscheme-auto .gh-card svg {
         fill: #dadada; }
-    body.colorscheme-auto .project-title a {
+    body.colorscheme-auto .gh-title a {
       font-weight: 300;
       color: #dadada;
       text-decoration: none;
       transition: all .25s ease-in; }
-      body.colorscheme-auto .project-title a:focus, body.colorscheme-auto .project-title a:hover {
+      body.colorscheme-auto .gh-title a:focus, body.colorscheme-auto .gh-title a:hover {
         text-decoration: underline; }
-    body.colorscheme-auto .project-card:hover {
-      box-shadow: 2.5rem 2.5rem 1rem 0 rgba(0, 0, 0, 0.4); } }
+    body.colorscheme-auto .gh-card:hover {
+      box-shadow: 2.5rem 2.5rem 1rem 0 rgba(0, 0, 0, 0.4); }
+    body.colorscheme-auto .arrows {
+      width: 120px;
+      height: 73px;
+      position: absolute;
+      left: 50%;
+      margin-left: -60px;
+      bottom: 20px; }
+    body.colorscheme-auto .arrows path {
+      stroke: #dadada;
+      fill: transparent;
+      stroke-width: 3px;
+      animation: arrow 2s infinite;
+      -webkit-animation: arrow 2s infinite; }
+  @keyframes arrow {
+    0% {
+      opacity: 0; }
+    40% {
+      opacity: 1; }
+    80% {
+      opacity: 0; }
+    100% {
+      opacity: 0; } }
+  @-webkit-keyframes arrow /*Safari and Chrome*/ {
+    0% {
+      opacity: 0; }
+    40% {
+      opacity: 1; }
+    80% {
+      opacity: 0; }
+    100% {
+      opacity: 0; } }
+    body.colorscheme-auto .arrows path.a1 {
+      animation-delay: -1s;
+      -webkit-animation-delay: -1s;
+      /* Safari 和 Chrome */ }
+    body.colorscheme-auto .arrows path.a2 {
+      animation-delay: -0.5s;
+      -webkit-animation-delay: -0.5s;
+      /* Safari 和 Chrome */ }
+    body.colorscheme-auto .arrows path.a3 {
+      animation-delay: 0s;
+      -webkit-animation-delay: 0s;
+      /* Safari 和 Chrome */ }
+    body.colorscheme-auto .project-section-light {
+      background-color: #424242; } }
 
 body.colorscheme-dark .content .list ul li .title {
   color: #dadada; }

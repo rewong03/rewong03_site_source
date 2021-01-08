@@ -3,7 +3,7 @@ title: "XtractHub"
 author: "Ryan Wong"
 date: "2019-06-01"
 slug: "xtracthub"
-language: "Python"
+project_language: "Python"
 project_link: "https://github.com/xtracthub"
 ---
 [XtractHub](https://github.com/xtracthub) is a project that I contributed to as part of the 

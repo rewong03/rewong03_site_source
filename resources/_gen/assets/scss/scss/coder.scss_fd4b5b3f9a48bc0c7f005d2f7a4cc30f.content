@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *:after,
 *:before {
@@ -155,7 +156,7 @@ figure {
 
 .container {
   margin: 0 auto;
-  max-width: 90.0rem;
+  max-width: 120.0rem;
   width: 100%;
   padding-left: 2.0rem;
   padding-right: 2.0rem; }
@@ -194,7 +195,7 @@ img.emoji {
   margin: 0 .05em 0 .1em;
   vertical-align: -0.1em; }
 
-.project-card {
+.gh-card {
   background-color: #EDEDED;
   box-shadow: 1.5rem 1.5rem 1rem 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -206,23 +207,23 @@ img.emoji {
   flex-direction: column;
   justify-content: space-between; }
 
-.project-description p {
+.gh-description p {
   color: #212121;
   font-size: 1.5rem;
   line-height: 2rem;
   margin: 1.0rem 0 1.0rem 0; }
 
-.project-card:hover {
+.gh-card:hover {
   box-shadow: 2rem 2rem 1rem 0 rgba(0, 0, 0, 0.4); }
 
-.project-grid {
+.gh-grid {
   display: grid;
   grid-template-columns: 1fr 1fr; }
 
-.project-title svg {
+.gh-title svg {
   fill: #212121; }
 
-.project-title h1 {
+.gh-title h1 {
   font-family: europa, sans-serif;
   color: #212121;
   font-weight: 700;
@@ -230,24 +231,24 @@ img.emoji {
   font-size: 2rem;
   line-height: 2.5rem; }
   @media only screen and (max-width: 768px) {
-    .project-title h1 {
+    .gh-title h1 {
       font-size: 1.8rem;
       line-height: 1.8rem; } }
-.project-title p {
+.gh-title p {
   color: #212121;
   font-size: 1.5rem;
   line-height: 2rem;
   margin: 1.0rem 0 1.0rem 0; }
 
-.project-title a {
+.gh-title a {
   font-weight: 300;
   color: #212121;
   text-decoration: none;
   transition: all .25s ease-in; }
-  .project-title a:focus, .project-title a:hover {
+  .gh-title a:focus, .gh-title a:hover {
     text-decoration: underline; }
 
-.project-stats svg {
+.gh-stats svg {
   fill: #212121;
   position: relative;
   top: 0.5rem;
@@ -263,6 +264,119 @@ img.emoji {
   width: 1.5rem;
   top: 0.3rem;
   margin-right: 0.3rem; }
+
+.project-title-section {
+  height: calc(100vh - 86px);
+  display: flex;
+  align-items: center; }
+
+.project-title {
+  display: flex;
+  align-items: center; }
+  .project-title h1 {
+    font-size: 5rem;
+    margin-top: 3.2rem; }
+    @media only screen and (max-width: 768px) {
+      .project-title h1 {
+        font-size: 3.0rem;
+        line-height: 3.4rem; } }
+.project-description p {
+  font-size: 2.2rem;
+  font-weight: lighter;
+  max-width: 40rem; }
+
+.project-info-row {
+  display: flex;
+  flex-direction: row; }
+
+.project-tech {
+  margin-right: 2rem;
+  width: 15rem; }
+  .project-tech h6 {
+    margin-block-start: 3.2rem;
+    margin-block-end: 1rem;
+    font-size: 1.7rem;
+    font-weight: lighter; }
+  .project-tech p {
+    font-size: 1.5rem;
+    font-weight: lighter; }
+
+.project-team {
+  margin-right: 2rem;
+  width: 15rem; }
+  .project-team h6 {
+    margin-block-start: 3.2rem;
+    margin-block-end: 1rem;
+    font-size: 1.7rem;
+    font-weight: lighter; }
+  .project-team p {
+    font-size: 1.5rem;
+    font-weight: lighter; }
+
+.project-time {
+  margin-right: 2rem;
+  width: 15rem; }
+  .project-time h6 {
+    margin-block-start: 3.2rem;
+    margin-block-end: 1rem;
+    font-size: 1.7rem;
+    font-weight: lighter; }
+  .project-time p {
+    font-size: 1.5rem;
+    font-weight: lighter; }
+
+.arrows {
+  width: 120px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  bottom: 20px; }
+
+.arrows path {
+  stroke: #212121;
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite; }
+
+@keyframes arrow {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 1; }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+  /* Safari 和 Chrome */ }
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
+  /* Safari 和 Chrome */ }
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  /* Safari 和 Chrome */ }
+
+.project-section-light {
+  background-color: #E0E0E0; }
 
 .content {
   flex: 1;
