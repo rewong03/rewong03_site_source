@@ -1,17 +1,24 @@
 ---
+project_page: true
 title: "XtractHub"
 author: "Ryan Wong"
 date: "2019-06-01"
 slug: "xtracthub"
 project_language: "Python"
 project_link: "https://github.com/xtracthub"
+short_description: "Scalable metadata extraction on heterogeneous files"
+technologies: ["Python", "Sci-kit Learn", "MaterialsIO"]
+team: ["Ryan Wong", "Globus Labs", "Argonne National Laboratory"]
+time: "Summer 2019 (10 weeks)"
 ---
+[About]:  
 [XtractHub](https://github.com/xtracthub) is a project that I contributed to as part of the 
 [2019 CDAC Summer Lab](https://cdac.uchicago.edu/engage/summerlab/#project-profiles) under 
 the mentorship of [Tyler Skluzacek](https://github.com/tskluzac). Xtract is a service that 
 extracts metadata from heterogeneous scientific file formats, and is a project from 
-[Globus Labs](https://labs.globus.org).  
+[Globus Labs](https://labs.globus.org).[END]  
   
+[Problem]:  
 As advancements in scientific computing have been made, the volume and variety of data 
 produced by experiments have increased significantly. Most of this scientific data is stored 
 in public/shared repositories such as [Petrel](https://petrel.alcf.anl.gov). However, due 
@@ -42,8 +49,9 @@ future, users will be able to submit their own extractors, allowing them to util
 to fit their own needs. Finally, Xtract then takes the metadata returned by the extractors 
 and stores it.  
 
-{{< figure src="/images/projects/xtracthub/xtracthub_arch.png" width=800 caption="XtractHub Architecture" >}}  
+{{< figure src="/images/projects/xtracthub/xtracthub_arch.png" width=800 caption="XtractHub Architecture" >}}[END]  
   
+[Extractor/Sampler Development]:  
 During my research assistantship, I mainly worked on developing extractors. I began by 
 adding documentation and increasing the clarity of the extractors. Then, I optimized and 
 increased the capabilities of some of the extractors, such as the [json/xml extractor](https://github.com/xtracthub/xtract-jsonxml) 
@@ -57,8 +65,9 @@ to Xtract's [file sampler](https://github.com/xtracthub/xtract-sampler), which u
 learning to determine what metadata can be extracted from each file. I improved the accuracy 
 of the model, automated the training of the model, and did some overall cleanup. I also made 
 a Python Flask web application that served as a mini version of Xtract that extracted metadata 
-from individual files rather than entire data repositories.
-
+from individual files rather than entire data repositories.[END]  
+  
+[MDF Experiments]:  
 Near the end of my assistantship, I helped co-author ["Serverless Workflows for Indexling 
 Large Scientific Data"](/documents/projects/xtracthub/xtracthub_wosc_19.pdf), where Xtract 
 was used to process data from the [Materials Data Facility](https://materialsdatafacility.org) 
@@ -70,9 +79,11 @@ materials science files from numerous users.
 In our experiment, Xtract was used to process a ~2 million file subset of MDF, successfully
 extracting metadata from ~250,000 files.  
 
-{{< figure src="/images/projects/xtracthub/extractor_performance.png" width=800 caption="Extractor performance on MDF" >}}
+{{< figure src="/images/projects/xtracthub/extractor_performance.png" width=800 caption="Extractor performance on MDF" >}}[END]  
   
+[Related/Future Work]:  
 Since the summer of 2019, I have continued to work on XtractHub. Click [here](/projects/xtract_classifier) 
 to read about the Xtract Classifier, an attempt to classify files using deep learning, or 
 click [here](/projects/xtract_container_service) to read about the Xtract Container Service, 
-a system for managing and building containers.
+a system for managing and building containers.  
+[END]

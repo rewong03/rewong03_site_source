@@ -1,21 +1,28 @@
 ---
+project_page: true
 title: "d-gen"
 author: "Ryan Wong"
 date: "2020-06-01"
 slug: "d-gen"
 language: "Java"
 gh_repo: "https://github.com/raulcf/d-gen"
+short_description: "Generating complex synthetic relational databases using java"
+technologies: ["Java", "Parquet", "PostgreSQL"]
+team: ["Ryan Wong", "Raul Castro-Fernandez"]
+time: "Summer 2020 (10 weeks)"
 ---
+[About]:  
 [d-gen](https://github.com/raulcf/d-gen) is a project that I developed as part of the [2020 CDAC Summer Lab](https://cdac.uchicago.edu/engage/summerlab/#project-profiles) 
 under the mentorship of [Professor Raul Castro-Ferenandez](https://raulcastrofernandez.com). The purpose of d-gen is to synthetically 
-generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.  
+generate relational databases that adhere to a user-defined schema for the purposes of query testing and optimization.[END]  
   
+[Problem]:  
 [Relational databases](https://en.wikipedia.org/wiki/Relational_database) are databases which contain tables filled with columns and rows 
 of information, which may or may not hold some sort of "relation" to each other. For example, in a school's database, you might have a 
 table of student information, containing first name, last name, student ID, etc., and a table containing students enrolled in a specific 
 class. Since all students enrolled in a class at a school **must also** be students of that school, there exists a *relationship* between 
 the student information table and class enrollment table, where information in the class enrollment table **must also** exist in the student 
-information table. This is an example of one way that data can be "related" in a database, but there exists many other ways.  
+information table. This is an example of one way that data can be "related" in a database, but there exists many other ways.    
   
 {{< figure src="/images/projects/d-gen/example_database.jp2" width=800 caption="Example relational database schema">}}
   
@@ -27,8 +34,9 @@ As a result, users must test/optimize queries with databases that conform to the
 simplistic, it can be incredibly difficult to procure databases that conform with complex queries that use multiple tables, columns, rows, 
 etc. Additionally, users looking to optimize their queries will have additional requirements regarding the size/distribution of data.
   
-{{< figure src="/images/projects/d-gen/example_query.jp2" width=800 caption="Example query showing required tables/columns" >}}
+{{< figure src="/images/projects/d-gen/example_query.jp2" width=800 caption="Example query showing required tables/columns" >}}[END]  
   
+[Solution]:  
 Rather than having database users scrounge around trying to find databases, d-gen offers a method of generating random data which can 
 adhere to their niche constraints. To do so, users provide d-gen a [YAML config](https://github.com/raulcf/d-gen/blob/master/example_specifications/specification_outline.md) 
 which abstractly described the database's constraints. There exists multiple levels of abstraction, with users being able to define 
@@ -37,12 +45,13 @@ users can also define multiple columns, tables, and relationships all at once.
   
 d-gen then takes this abstract schema and converts it to a more "defined" schema, removing all abstraction and creating a more descriptive 
 and conncrete schema. This, coupled with the use of random seeds, allows generated databases to be replicable by d-gen. d-gen then uses 
-this defined schema to generate the database, which is then finally serialized to a user-usable format.
+this defined schema to generate the database, which is then finally serialized to a user-usable format.[END]
   
+[Related Work]:  
 Although d-gen is (mostly) working and functional, there are still many improvements that can be made. Currently, there are only basic 
 column/table relationships available (PK-FK, Jacaard Similarity, Functional Dependency), but there are many more that could be implemented 
 in both the YAML config and in the generation. Another big change that could be made is increasing the performance of data generation and 
 serialization. I most likely won't pick up d-gen again, but feel free to check it out on GitHub [here](https://github.com/raulcf/d-gen), or 
 watch this video I made about it!
   
-{{< youtube id=qPmuSZtiiiQ >}}
+{{< youtube id=qPmuSZtiiiQ >}}[END]
