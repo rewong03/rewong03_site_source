@@ -77,6 +77,11 @@ enableGitInfo = true
     icon = "fa fa-linkedin"
     weight = 2
     url = "https://www.linkedin.com/in/rewong03/"
+[[params.social]]
+    name = "Email"
+    icon = "fa fa-envelope"
+    weight = 3
+    url = "mailto:rewong03@gmail.com"
 
 # Page links
 [[menu.main]]
