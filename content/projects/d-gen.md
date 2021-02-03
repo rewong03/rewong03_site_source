@@ -7,9 +7,7 @@ slug: "d-gen"
 language: "Java"
 gh_repo: "https://github.com/raulcf/d-gen"
 short_description: "Generating complex synthetic relational databases using java"
-project_image_type: "svg"
-project_image_file: "static/images/projects/d-gen/database_path.txt"
-project_image_style: '<svg width="30rem" height="30rem" viewBox="0 0 1792 1792" fill="white" color="white" margin-right="10rem">'
+project_image_tag_file: "static/images/projects/d-gen/title_image.txt"
 technologies: ["Java", "Parquet", "PostgreSQL"]
 team: ["Ryan Wong", "Raul Castro-Fernandez"]
 time: "Summer 2020 (10 weeks)"

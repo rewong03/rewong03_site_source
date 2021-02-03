@@ -339,6 +339,8 @@ img.emoji {
 
 .project-title-image {
   opacity: 0; }
+  .project-title-image svg {
+    fill: #212121; }
 
 .arrows {
   width: 120px;

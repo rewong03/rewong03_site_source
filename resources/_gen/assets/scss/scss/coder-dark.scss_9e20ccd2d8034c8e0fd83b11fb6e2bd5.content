@@ -82,8 +82,8 @@ body.colorscheme-dark {
     animation-delay: 0s;
     -webkit-animation-delay: 0s;
     /* Safari 和 Chrome */ }
-  body.colorscheme-dark .project-section-light {
-    background-color: #424242; }
+  body.colorscheme-dark .project-title-image svg {
+    fill: #dadada; }
 
 @media (prefers-color-scheme: dark) {
   body.colorscheme-auto {
@@ -167,8 +167,8 @@ body.colorscheme-dark {
       animation-delay: 0s;
       -webkit-animation-delay: 0s;
       /* Safari 和 Chrome */ }
-    body.colorscheme-auto .project-section-light {
-      background-color: #424242; } }
+    body.colorscheme-auto .project-title-image svg {
+      fill: #dadada; } }
 
 body.colorscheme-dark .content .list ul li .title {
   color: #dadada; }
