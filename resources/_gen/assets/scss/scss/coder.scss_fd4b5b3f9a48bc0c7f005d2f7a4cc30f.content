@@ -665,72 +665,72 @@ img {
   -webkit-animation-delay: 0s;
   /* Safari 和 Chrome */ }
 
-.about {
+.about-page {
   text-align: center; }
-  .about h1 {
+  .about-page h1 {
     margin-top: 2.0rem;
     margin-bottom: 0.5rem; }
-  .about h2 {
+  .about-page h2 {
     margin-top: 1.0rem;
     margin-bottom: 0.5rem;
     font-size: 2.4rem; }
     @media only screen and (max-width: 768px) {
-      .about h2 {
+      .about-page h2 {
         font-size: 2.0rem; } }
-  .about ul {
+  .about-page ul {
     list-style: none;
     margin: 3.0rem 0 1.0rem 0;
     padding: 0; }
-    .about ul li {
+    .about-page ul li {
       display: inline-block;
       position: relative; }
-      .about ul li a {
+      .about-page ul li a {
         color: #212121;
         text-transform: uppercase;
         margin-left: 1.0rem;
         margin-right: 1.0rem;
         font-size: 1.6rem; }
-        .about ul li a:hover, .about ul li a:focus {
+        .about-page ul li a:hover, .about-page ul li a:focus {
           color: #1565c0; }
         @media only screen and (max-width: 768px) {
-          .about ul li a {
+          .about-page ul li a {
             font-size: 1.4rem; } }
-        .about ul li a i {
+        .about-page ul li a i {
           font-size: 3.2rem; }
-  .about .about-left {
+  .about-page .about-left {
     float: left;
     margin-left: 10em; }
-  .about .about-right {
+  .about-page .about-right {
     float: right;
     width: 50%;
     text-align: left; }
-  .about .avatar
+  .about-page .avatar
 img {
     width: 30rem;
     height: auto;
     border-radius: 5%; }
     @media only screen and (max-width: 768px) {
-      .about .avatar
+      .about-page .avatar
 img {
         width: 10rem; } }
-  .about li a {
+  .about-page li a {
     margin-left: 1.5em;
     margin-right: 1.5em; }
-  .about .error {
+  .about-page .error {
     text-align: center; }
-    .about .error h1 {
+    .about-page .error h1 {
       margin-top: 2.0rem;
       margin-bottom: 0.5rem;
       font-size: 4.6rem; }
       @media only screen and (max-width: 768px) {
-        .about .error h1 {
+        .about-page .error h1 {
           font-size: 3.2rem; } }
-    .about .error h2 {
+    .about-page .error h2 {
       margin-top: 2.0rem;
       margin-bottom: 3.2rem;
       font-size: 3.2rem; }
       @media only screen and (max-width: 768px) {
-        .about .error h2 {
+        .about-page .error h2 {
           font-size: 2.8rem; } }
 
 /*# sourceMappingURL=coder.css.map */
