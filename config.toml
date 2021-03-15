@@ -82,6 +82,11 @@ enableGitInfo = true
     icon = "fa fa-envelope"
     weight = 3
     url = "mailto:rewong03@gmail.com"
+[[params.social]]
+    name = "CV"
+    icon = "fa fa-file-text"
+    weight = 4
+    url = "documents/rewong_resume.pdf"
 
 # Page links
 [[menu.main]]
